@@ -178,10 +178,10 @@ Tests written with `cljd.test` can be run with `dart test` (or `flutter test`).
 Dart methods may take named parameters, to call them in ClojureDart just use a keyword as the parameter name.
 
 ```clj
-(widgets/IndexedStack.
-  :sizing rendering.StackFit/expand
-  :index 1
-  :children [...])
+(widgets/IndexedStack
+  .sizing rendering.StackFit/expand
+  .index 1
+  .children [...])
 ```
 
 ### Generics
